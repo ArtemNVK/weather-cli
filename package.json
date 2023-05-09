@@ -1,5 +1,5 @@
 {
-  "name": "weather-cli",
+  "name": "weather-cli05/09/2023",
   "version": "1.0.0",
   "description": "A CLI application that allows to fetch data from the OpenWeather.",
   "main": "index.js",
