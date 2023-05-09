@@ -1,7 +1,7 @@
 {
   "name": "weather-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI application that allows to fetch data from the OpenWeather.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
