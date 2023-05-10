@@ -4,7 +4,7 @@ import process from 'node:process';
 
 import yargs from 'yargs/yargs';
 import { hideBin } from 'yargs/helpers';
-import run from '../src/index.js';
+import run, { handleInfoCommand } from '../src/index.js';
 
 yargs(hideBin(process.argv))
   .usage('Usage: $0 [options]')
@@ -28,6 +28,7 @@ yargs(hideBin(process.argv))
       run(argv);
     },
   )
+  .command('info', 'Fetch weather info', {}, handleInfoCommand)
   .command(
     'city',
     'get weather by city',
